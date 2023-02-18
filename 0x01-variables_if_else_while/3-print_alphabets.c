@@ -15,7 +15,7 @@ int main(void)
 	{
 		putchar(alp[i]);
 	}
-	for (x = 0, x < 26; x++)
+	for (x = 0; x < 26; x++)
 	{
 		putchar(ALP[x]);
 	}
