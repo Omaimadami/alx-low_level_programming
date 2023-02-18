@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main -Entry point
+ * main - Entry point
  *
- * Return: 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -10,7 +10,7 @@ int main(void)
 	char ALP[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 	int x;
-	
+
 	for (i = 0; i < 26; i++)
 	{
 		putchar(alp[i]);
