@@ -8,11 +8,11 @@ int main(void)
 {
 	char alp;
 
-	alp = 'a'
+	alp = 'a';
 	while
 		(alp <= 'z');
 	{
-		putchar(alp[i]);
+		putchar(alp);
 	}
 	putchar('\n');
 	return (0);
