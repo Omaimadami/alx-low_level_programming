@@ -5,10 +5,15 @@
  * Return: Always 0 (success)
  */
 int main(void)
+
 {
-	for (alp <= 'z'; alp++;)
+	char alp;
+
+	alp = 'a';
+	while (alp <= 'z')
 	{
 		putchar(alp);
+		alp++
 	}
 	putchar('\n');
 	return (0);
