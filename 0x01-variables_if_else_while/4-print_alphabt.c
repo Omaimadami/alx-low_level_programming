@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int i = 'a';
+	int i = ('a');
 
 	while (i < 'z'; i != 'e'; i != 'q'; i++)
 	{
