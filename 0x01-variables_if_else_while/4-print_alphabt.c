@@ -8,11 +8,10 @@ int main(void)
 {
 	int i = ('a');
 
-	while ((i < 'z') (i != 'q') (i != 'e'))
-	{
+	do {
+		i < ('z');
 		putchar(i);
-		i++;
-	}
+	} while (i != 'qe');
 	putchar('\n');
 	return (0);
 }
