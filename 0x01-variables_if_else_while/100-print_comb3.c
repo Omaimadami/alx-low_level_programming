@@ -16,11 +16,10 @@ int main(void)
 			{
 			putchar(i);
 			putchar(n);
+			}
 			if (i != '8' && n != '9')
-			continue;
 			putchar(',');
 			putchar(' ');
-			}
 		}
 	}
 	putchar('\n');
