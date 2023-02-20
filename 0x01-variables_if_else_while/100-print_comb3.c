@@ -14,11 +14,11 @@ int main(void)
 		{
 			if (n != i)
 			{
-				putchar(i);
-				putchar(n);
+			putchar(i);
+			putchar(n);
 			if (i != '8' && n != '9')
-				putchar(',');
-				putchar(' ');
+			putchar(',');
+			putchar(' ');
 			}
 		}
 	}
