@@ -18,10 +18,8 @@ int main(void)
 				putchar(n);
 			}
 			if (i != '8' && n != '9')
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
