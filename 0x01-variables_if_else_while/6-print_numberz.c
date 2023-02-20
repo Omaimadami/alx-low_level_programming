@@ -2,15 +2,15 @@
 /**
  * main - Entry point
  *
- * Return: Always à (success)
+ * Return: Always 0 (success)
  */
-int mail(void)
+int main(void)
 {
 	int i;
 
-	while (i = 0; i <= 0; i++)
+	for (i = 0, i <= 0, i++)
 	{
-		putchar("%d", i);
+		putchar(i);
 	}
 	putchar("\n");
 	return (0);
