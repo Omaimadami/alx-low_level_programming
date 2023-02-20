@@ -9,7 +9,7 @@ int main(void)
 	int n;
 	char alp;
 
-	while (n = '0'; n <= 9; n++)
+	while n = ('0'); n <= ('9'), n++
 	putchar(n);
 	for (alp = 'a'; alp <= 'f'; alp++)
 	putchar(alp);
