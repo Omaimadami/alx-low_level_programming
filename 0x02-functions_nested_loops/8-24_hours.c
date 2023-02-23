@@ -2,23 +2,31 @@
 /**
  *jack_bauer - prints every minute of the day
  *
- *Return: every minute of the day
+ *Return: no return
  */
 void jack_bauer(void)
 {
 
-	int x = 00;
-	int y = 00;
+	int a, b, c, d;
 
-	while (x <= '23')
+	for (a = 0; a <= 2; a++)
 	{
-		while (y <= 59)
+		for (b = 0; b <= 9; b++)
 		{
-			_putchar(x);
-			_putchar(':');
-			_putchar(y);
-			_putchar('\n');
+			for (c = 0; c <= 5; c++)
+			{
+				for (d = 0; d <= 9; d++)
+				{
+					if (a >= 2 && b >= 4)
+						break;
+					_putchar(a);
+					_putchar(b);
+					_putchar(58);
+					_putchar(c);
+					_putchar(d);
+					_putchar('\n');
+				}
+			}
 		}
 	}
-	return (void);
 }
