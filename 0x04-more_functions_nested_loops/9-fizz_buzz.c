@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 /**
  * main - prints a Fizz-Buzz test
@@ -31,5 +32,5 @@ int main(void)
 		}
 	}
 	printf("\n");
-	return(0);
+	return (0);
 }
