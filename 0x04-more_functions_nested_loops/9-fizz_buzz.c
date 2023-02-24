@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints a Fizz-Buzz test
- * Return: no return
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -31,4 +31,5 @@ int main(void)
 		}
 	}
 	printf("\n");
+	return(0);
 }
