@@ -1,0 +1,21 @@
+#include <stdio.h>
+/**
+ * main - finds and prints the largest prime factor of the number 612852475143
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	long i, larf;
+	long number = 612852475143;
+	double square = sqrt(number);
+
+	for (i = 1; i <= square; i++)
+	{
+		if (number % i == 0)
+		{
+			larf = number / i;
+		}
+	}
+	printf("%ld\n", larf);
+	return (0);
+}
