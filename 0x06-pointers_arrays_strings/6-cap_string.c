@@ -11,23 +11,23 @@ char *cap_string(char *cstr)
 	while (cstr[i])
 	{
 		while (!(cstr[i] >= 'a' && cstr[i] <= 'z'))
-			i++;
-			if (cstr[i - 1] == ' ' ||
-			cstr[i - 1] == '\t' ||
-			cstr[i - 1] == '\n' ||
-			cstr[i - 1] == ',' ||
-			cstr[i - 1] == ';' ||
-			cstr[i - 1] == '.' ||
-			cstr[i - 1] == '!' ||
-			cstr[i - 1] == '?' ||
-			cstr[i - 1] == '"' ||
-			cstr[i - 1] == '(' ||
-			cstr[i - 1] == ')' ||
-			cstr[i - 1] == '{' ||
-			cstr[i - 1] == '}' ||
-			i == 0)
-				cstr[i] = cstr[i] - 32;
-				i++;
+		i++;
+		if (cstr[i - 1] == ' ' ||
+		cstr[i - 1] == '\t' ||
+		cstr[i - 1] == '\n' ||
+		cstr[i - 1] == ',' ||
+		cstr[i - 1] == ';' ||
+		cstr[i - 1] == '.' ||
+		cstr[i - 1] == '!' ||
+		cstr[i - 1] == '?' ||
+		cstr[i - 1] == '"' ||
+		cstr[i - 1] == '(' ||
+		cstr[i - 1] == ')' ||
+		cstr[i - 1] == '{' ||
+		cstr[i - 1] == '}' ||
+		i == 0)
+		cstr[i] = cstr[i] - 32;
+		i++;
 	}
 	return (cstr);
 }
