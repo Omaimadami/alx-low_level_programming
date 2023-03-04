@@ -17,6 +17,7 @@ char *rot13(char *strc)
 			if (strc[x] == a[y])
 			{
 				strc[x] = c[y];
+				break;
 			}
 		}
 	}
