@@ -11,7 +11,7 @@ char *rot13(char *strc)
 
 	for (x = 0; strc[x] != '\0'; x++)
 	{
-		for (y = 0; strc[y] < 52; y++)
+		for (y = 0; y < 52; y++)
 		{
 			if (strc[x] == alp[y])
 			{
