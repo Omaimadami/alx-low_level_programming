@@ -21,7 +21,7 @@ int if_num_prime(int n, int i)
 	{
 		return (0);
 	}
-	if (n % i == 0 && i > 0)
+	if (n % i == 0 && i > 1)
 	{
 		return (0);
 	}
