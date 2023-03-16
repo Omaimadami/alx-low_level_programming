@@ -13,9 +13,13 @@ int _atoi(char *s)
 		sign = -1;
 		i++;
 	}
-	for (; s[i] != '\0'; ++i)
+	if (s[i] >= 48 && s[i] <= 57)
 	{
 		num = (num * 10) + (s[i] - '0');
+	}
+	if (num = 0)
+	{
+		return (0);
 	}
 	return (sign * num);
 }
