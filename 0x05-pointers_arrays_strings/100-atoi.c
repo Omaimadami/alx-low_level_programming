@@ -18,8 +18,8 @@ int _atoi(char *s)
 		if (s[i] >= 48 && s[i] <= 57)
 		{
 			num = (num * 10) + (s[i] - '0');
+			c = 1;
 		}
-		c = 1;
 		i++;
 	}
 	if (c == 0)
