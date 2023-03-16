@@ -20,6 +20,7 @@ int _atoi(char *s)
 			num = (num * 10) + (s[i] - '0');
 		}
 		c = 1;
+		i++;
 	}
 	if (c == 0)
 	{
