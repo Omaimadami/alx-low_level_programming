@@ -41,10 +41,11 @@ char *str_concat(char *s1, char *s2)
 		{
 			str[k] = s1[k];
 		}
-		if (k > x)
+		if (k >= x)
 		{
 			str[k] = s2[y];
 		}
+		k++;
 	}
 	return (str);
 }
