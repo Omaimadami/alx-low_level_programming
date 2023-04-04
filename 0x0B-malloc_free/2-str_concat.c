@@ -10,7 +10,7 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int x = 0, y = 0, len, k = 0;
+	int x = 0, y = 0, len, k = 0, i = 0;
 	char *str;
 
 	if (s1 == NULL)
@@ -43,7 +43,8 @@ char *str_concat(char *s1, char *s2)
 		}
 		if (k >= x)
 		{
-			str[k] = s2[y];
+			str[k] = s2[i];
+			i++;
 		}
 		k++;
 	}
