@@ -10,7 +10,7 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int x = 0, y = 0, len, k;
+	int x = 0, y = 0, len, k = 0;
 	char *str;
 
 	if (s1 == NULL)
@@ -35,7 +35,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	for (k = 0; k < len; k++)
+	for (k < len)
 	{
 		if (k <= x)
 		{
