@@ -35,7 +35,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	for (k < len)
+	while (k < len)
 	{
 		if (k <= x)
 		{
@@ -46,6 +46,5 @@ char *str_concat(char *s1, char *s2)
 			str[k] = s2[y];
 		}
 	}
-	str[k] = '\0';
 	return (str);
 }
