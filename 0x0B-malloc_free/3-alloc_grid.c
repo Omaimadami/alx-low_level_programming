@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * alloc_grid - function that returns a pointer to a 2D array of integers
- * @width: first string
- * @height: second string
+ * @width: width of the array
+ * @height: height of the array
  * Return: a pointer to a 2D array of integers
  */
 int **alloc_grid(int width, int height)
