@@ -23,7 +23,7 @@ char *str_concat(char *s1, char *s2)
 	concat = malloc((sizeof(char) * (len1 + len2)) + 1);
 
 	if (concat == NULL)
-		return NULL;
+		return (NULL);
 	for (i = 0; i < len1; i++)
 		concat[i] = s1[i];
 	for (j = 0; j < len2; j++)
@@ -31,5 +31,5 @@ char *str_concat(char *s1, char *s2)
 
 	concat[i] = '\0';
 
-	return concat;
+	return (concat);
 }
